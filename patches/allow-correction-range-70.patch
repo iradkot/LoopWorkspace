@@ -1,6 +1,6 @@
-diff --git a/LoopKit/Extensions/Guardrail+Settings.swift b/LoopKit/Extensions/Guardrail+Settings.swift
---- a/LoopKit/Extensions/Guardrail+Settings.swift
-+++ b/LoopKit/Extensions/Guardrail+Settings.swift
+diff --git a/LoopKit/LoopKit/Extensions/Guardrail+Settings.swift b/LoopKit/LoopKit/Extensions/Guardrail+Settings.swift
+--- a/LoopKit/LoopKit/Extensions/Guardrail+Settings.swift
++++ b/LoopKit/LoopKit/Extensions/Guardrail+Settings.swift
 @@ -22,8 +22,10 @@ public extension Guardrail where Value == HKQuantity {
          .compactMap { $0 }
          .min()!
